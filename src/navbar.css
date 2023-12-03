@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+html,
+body,
+#root {
+  margin: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-brand .image {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+}
+.navbar a {
+  font-size: 1.1rem;
+  color: #e9f1fa;
+}
+
+.menu_active {
+  color: #080230 !important;
+  font-weight: bold;
+  border-bottom: 1px solid #080230;
+}
+/* .navbar a:hover {
+  color: white !important;
+} */
+
+@media screen and (max-width: 417px) {
+  .navbar-brand {
+    font-size: 1.3rem !important;
+  }
+}
+
+.image-fluid {
+  margin-top: 30px;
+  max-height: 100%;
+
+  max-width: 100%;
+  /* object-fit: cover; */
+  border-radius: 50px;
+}
+
+.header-img {
+  text-align: right;
+}
+#header {
+  margin-top: 50px;
+}
+#header .brand-name {
+  color: white;
+}
+#header h4 {
+  font-size: 20px;
+}
+#header .btn-get-started {
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  color: #e9f1fa;
+  font-weight: bolder;
+  padding: 10px 30px;
+  letter-spacing: 1px;
+  border: 2px solid #e9f1fa;
+  transition: 0.5s;
+}
+#header .btn-get-started:hover {
+  background-color: #080230;
+  color: #fff;
+  border: 2px solid #080230;
+}
+
+html,
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSagX9xnajY5anHD9_UeRzE0JQh_uUUOR5-3KoN6_eoD1nsXgv0x1gt_JQnEbCB_Yz9XE4&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#header .cart {
+  align-items: center;
+  background-color: #fff;
+  color: #080230;
+  border-radius: 20px;
+  border: 2px solid #080230;
+  padding: 20px;
+}
+.cart .title {
+  font-size: 25px;
+  text-decoration: underline;
+}
+.cart .btn-download {
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  color: #080230;
+  font-weight: bolder;
+  padding: 10px 30px;
+  letter-spacing: 1px;
+  border: 2px solid #080230;
+  transition: 0.5s;
+}
+.cart .btn-download:hover {
+  background-color: #080230;
+  color: #fff;
+}
+#contact-root {
+  margin-top: 50px;
+  color: #080230;
+}
+
+/* #header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+} */
+/* @media screen and (max-width: 991px) {
+  .image-fluid {
+    height: 200px;
+  }
+  .header-img {
+    text-align: center;
+  }
+} */
