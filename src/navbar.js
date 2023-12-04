@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import pic from "./images/1000_F_511404377_HiSaHkQZ00nPFA0cnsqu1hVaobNpFAlD.jpg";
 
@@ -34,8 +34,9 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           isActive ? "nav-link menu_active" : "nav-link"
                         }
-                        aria-current="page"
+                        // aria-current="page"
                         to="/"
+                        data-bs-target="#navbarSupportedContent"
                       >
                         Home
                       </NavLink>

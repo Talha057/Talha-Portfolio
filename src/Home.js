@@ -30,7 +30,7 @@ const Home = () => {
                 </h1>
                 <h4 className="my-3">React | React-Native | Node.js</h4>
                 <div className="mt-3">
-                  <NavLink to="/services" className="btn-get-started">
+                  <NavLink to="/projects" className="btn-get-started">
                     Get Started
                   </NavLink>
                 </div>

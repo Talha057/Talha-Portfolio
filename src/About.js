@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import pic from "./images/code pic.jpeg";
 import Typed from "typed.js";
 import { useEffect } from "react";
@@ -21,7 +20,7 @@ const About = () => {
   return (
     <section id="header" className="d-flex align-items-center">
       <div className="container-fluid nav_bg ">
-        <div className="row">
+        <div className="row pb-5 pb-lg-0">
           <div className="col-10 mx-auto">
             <div className="row">
               <div className="col-lg-6 pt-4 pt-lg-5 order-2 order-lg-1 d-flex justify-content-center flex-column">
@@ -40,7 +39,7 @@ const About = () => {
                 </h4>
                 <div className="mt-3">
                   <a
-                    href="/Muhammad Talha Resume.pdf"
+                    href="/Muhammad_Talha_Resume.pdf"
                     download
                     className="btn-get-started"
                   >

@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <div id="header" className="container">
-      <div className="row justify-content-around align-items-start px-lg-0 px-5 gap-5">
+      <div className="row justify-content-around align-items-start px-lg-0 px-5 gap-5 pb-5 pb-lg-0">
         <div className="cart col-lg-3">
           <h1 className="title">Bachay App</h1>
           <p>• This app contains Ecommerce, Parenting</p>
@@ -12,14 +12,9 @@ const Projects = () => {
             • Integrated APIs with redux toolkit (Apis was created with PHP
             Laravel)
           </p>
-          <p>• Got the APK of the app</p>
           <div className="mt-3">
-            <a
-              href="/Muhammad_Talha_Resume.pdf"
-              download
-              className="btn-download"
-            >
-              Download APK
+            <a href="/App demo video.mp4" download className="btn-download">
+              Design Video
             </a>
           </div>
         </div>
