@@ -9,7 +9,7 @@ const Home = () => {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["Muhammad Talha."],
-      typeSpeed: 60,
+      typeSpeed: 50,
       showCursor: false,
     });
 
