@@ -24,6 +24,10 @@ Displays a selection of projects Muhammad Talha has worked on, along with descri
 - Bootstrap
 - Netlify for hosting
 
+## Usage
+
+To access Talha's Dashboard, simply visit the following URL: [Talha's Portfolio](https://muhammadtalhadeveloper.netlify.app/). Once there, you can start customizing your dashboard by adding widgets, importing data, and arranging the layout to suit your preferences.
+
 To run this project locally, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/Talha057`
