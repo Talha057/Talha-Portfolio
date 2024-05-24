@@ -1,4 +1,4 @@
-# Muhammad Talha's Developer Portfolio
+# Muhammad Talha's Portfolio
 
 Welcome to Muhammad Talha's Portfolio! This is a simple website just to fulfill the requirement of the portfolio.
 
